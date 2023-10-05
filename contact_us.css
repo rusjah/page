@@ -30,26 +30,39 @@ form {
 }
 
 .input {
-    width: 300px;
-    height: 30px;
+    width: 80vw;
+    height: 6vh;
 }
 
 .submit {
-    width: 70px;
-    height: 30px;
+    width: 20vw;
+    height: 6vh;
     font-weight: bold;
     border-radius: 20px;
     background-color: rgb(210, 218, 197);
 }
 
 .textarea {
-    width: 300px;
-    height: 150px;
+    width: 80vw;
+    height: 30vh;
 }
 
 label {
-    margin-bottom: 2px;
-    margin-top: 14px;
     font-family: 'Tangerine', cursive;
     font-size: 2em;
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .submit {
+       font-size: 2em;
+    }
+    
+    .textarea {
+        height: 20vh;
+    }
+    
+    label {
+        font-size: 2.5em;
+    }
 }
