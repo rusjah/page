@@ -1,0 +1,55 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body, form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+body{
+    padding-top: 2vh;
+    gap: 4vh;
+    background: linear-gradient(rgb(243, 243, 203), rgb(253, 228, 183), rgb(89, 111, 89), rgb(100, 102, 101), rgb(65, 65, 65)
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    gap: 2vh;
+    padding-bottom: 3vh;
+}
+
+.input {
+    width: 300px;
+    height: 30px;
+}
+
+.submit {
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: rgb(210, 218, 197);
+}
+
+.textarea {
+    width: 300px;
+    height: 150px;
+}
+
+label {
+    margin-bottom: 2px;
+    margin-top: 14px;
+    font-family: 'Tangerine', cursive;
+    font-size: 2em;
+}
