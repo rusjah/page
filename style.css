@@ -20,13 +20,22 @@ body {
     align-items: center;
 }
 
-.header {
+.header, .footer {
     width: 100vw;
     height: 10vh;
     background: linear-gradient(rgb(234, 235, 236), rgb(195, 195, 196),gray, rgb(118, 116, 121));
     display: flex;
+}
+
+.header {
     justify-content: space-around;
     align-items: flex-end;
+}
+
+.footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -78,3 +87,5 @@ li a {
     border-radius: 20px;
     box-shadow: 5px 5px 10px black;
 }
+
+.main
