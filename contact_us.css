@@ -66,3 +66,13 @@ label {
         font-size: 2.5em;
     }
 }
+
+@media only screen and (min-width: 992px) {
+    .textarea, .input {
+        width: 60vw;
+    }
+    
+    h1 {
+        font-size: 3em;
+    }
+}

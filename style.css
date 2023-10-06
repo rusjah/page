@@ -255,8 +255,6 @@ h2 {
 }
 
 @media only screen and (min-width: 768px) {
-
-
     .logo {
         width: 60px;
         height: 60px;
@@ -307,9 +305,6 @@ h2 {
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
-    }
-    
-    .courses-section {
         gap: 3vh;
     }
 
@@ -356,5 +351,70 @@ h2 {
 
     .direct-detail {
         font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .header {
+        justify-content: space-between;
+        padding: 0 2vw 0 2vw;
+    }
+
+    .about-section {
+         height: 90vh;
+    }
+
+    h1 {
+        font-size: 6em;
+        letter-spacing: 8px;
+    }
+
+    .about-section p {
+        line-height: 10vh;
+    }
+        
+    h2 {
+        font-size: 5em;
+    }
+    
+    .courses-section {
+        gap: 4vw;
+    }
+
+    .info-box {
+        width: 26%;
+        /* height: 90%; */
+        height: 40vh;
+        border: 1px solid black;
+        padding: 2vh 2vw;
+        text-align: justify;
+        border-radius: 50% 0 50% 0;
+    }
+    
+    .info-box img { 
+        width: 8vw;
+        height: 10vh;
+    }
+
+    .info-title {
+        font-size: 2.5em;
+        align-self: flex-end;
+    }
+
+    .change-box {
+        height: 40vh;
+        width: 60vw;
+    }
+
+    .change-direct {
+        font-size: 4em;
+    }
+
+    .direct-descr {
+        font-size: 2.7em;
+    }
+
+    .direct-detail {
+        font-size: 1.5em;
     }
 }
